@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #FFFFFF	 0%, #c5ebf0 100%);
+  color: black;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  color: black;
+  padding: 20px;
+}
+
+header {
+  
+  font-size: 2rem;
+}
+
+form input ,
+
+form div {
+  min-height: 10%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+
+}
+
+textarea {
+  min-height: 10%;
+  padding: 10px;
+  margin: 20px;
+  width: 40%;
+}
+
+button {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  width: 10%;
+  
+}
+
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  
+}
+
+#first_head {
+  background-color: #007fff;
+  color: black;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding-left: 100px; 
+  align-items: center;
+  position: relative;
+}
+
+.nav {
+  background-color: #c5ebf0;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+li {
+  display: vertical;
+  padding: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  
+
+}
+
+.cittaList{
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+p {
+  color: black;
+  padding: 20px;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.footer_wiki {
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+  font: bold;
+}
+
+img.logo1 {
+  width: 69px;
+  height: 69px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.imageCity {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  width: 34%;;
+}
